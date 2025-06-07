@@ -11,7 +11,7 @@ body {
 .upperblue{
     display: flex;
     background-color: #1f2937;
-    height: 400px;
+    height: 500px;
     flex-direction: column;
 }
 
@@ -34,6 +34,11 @@ body {
     gap: 20px;
 }
 
+li {
+    font-weight: lighter;
+    font-style: italic;
+}
+
 .fronttext {
     display: flex;
     flex-direction: column;
@@ -45,7 +50,6 @@ body {
     display: flex;
     padding-right: 200px;
     flex-grow: 1;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -60,12 +64,14 @@ h1, h2 {
     font-size: 48px;
     font-weight: 700;
     width: 350px;
+    flex: 1;
 }
 
 .sub-text {
     font-size: 18px;
     font-weight: 200;
-    width: 600px;
+    width: 450px;
+    flex-shrink: 1;
 }
 
 ul {
@@ -95,6 +101,51 @@ button {
 
 .detroitguy {
     padding: 0;
-    height: 250px;
+    width: 400px;
+    flex-shrink: 1;
+    height: auto;
+}
+
+.second-white {
+    display: flex;
+    background-color: white;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    width: fit-content;
+    flex: 1;
+    margin: 50px;
+}
+
+.imagecontainer {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    gap: 1px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: auto;
+}
+
+.quad-texts {
+    margin: 10px;
+    text-align: center;
+}
+
+.smallimg {
+    border: solid #3882f6;
+    border-width: 5px;
+    border-radius: 4px;
 }
 
