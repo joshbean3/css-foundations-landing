@@ -21,6 +21,7 @@ body {
     padding-top: 15px;
     padding-right: 200px;
     margin: 0;
+    font-size: 24px;
 }
 
 .header-logo {
@@ -55,14 +56,16 @@ h1, h2 {
     margin: 4px 0;
 }
 
-h1 {
-    font-size: 30px;
+.main-text {
+    font-size: 48px;
     font-weight: 700;
+    width: 350px;
 }
 
-h2 {
-    font-size: 10px;
+.sub-text {
+    font-size: 18px;
     font-weight: 200;
+    width: 600px;
 }
 
 ul {
@@ -82,7 +85,7 @@ button {
     font-size: 12px;
     width: 100px;
     height: 25px;
-    margin: 10px;
+    margin: 10px 0px;
     background-color: #3882f6;
     color: white;
     border-radius: 4px;
