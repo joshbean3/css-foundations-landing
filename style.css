@@ -108,44 +108,69 @@ button {
 
 .second-white {
     display: flex;
-    background-color: white;
-    height: 300px;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;     /* vertical center */
+    align-items: center;         /* horizontal center */
+    height: 400px;
+    background-color: white;
+    box-sizing: border-box;
 }
 
+
 .second-header {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: 700;
-    width: fit-content;
-    flex: 1;
-    margin: 50px;
+  margin: 0 0 1rem 0;          /* only bottom margin */
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
 }
 
 .imagecontainer {
-    display: flex;
-    flex: wrap;
-    justify-content: center;
-    gap: 1px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 180px;
-    height: auto;
-}
-
-.quad-texts {
-    margin: 10px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
 }
 
 .smallimg {
-    border: solid #3882f6;
-    border-width: 5px;
-    border-radius: 4px;
+  width: 100px;
+  height: auto;
+  border: 5px solid #3882f6;
+  border-radius: 4px;
+}
+
+.quad-texts {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.quotesection {
+    height:300px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 600px;
+}
+
+.source {
+    font-size: 20px;
+    font-style: bold;
+    color: #1f2937;
+    justify-self: flex-end;
 }
 
